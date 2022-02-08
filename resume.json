@@ -1,0 +1,45 @@
+{
+    "BASIC INFORMATION":{
+        "NAME": "Christian Kevin P. De Vega",
+        "AGE":19,
+        "BIRTHDAY":"12/25/02",
+        "ADRESS":"CATANAUAN, QUEZON",
+        "EMAIL":"christiandevega12@GMAIL.com",
+        "PHONE NUMBER":"09454473766"
+    },
+    "EDUCATIONAL BACKGROUND":{
+        "PRIMARY EDUCATION":{
+            "NAME OF SCHOOL":"CATANAUAN CENTRAL SCHOOL",
+            "SCHOOL ADRESS":"CATANAUAN",
+            "GRADUATE YEAR":"2014-2015"
+        },
+        "SECONDARY EDUCATION":{
+            "NAME OF SCHOOL":"POLYTHECNIC UNIVERSITY OF THE PHILIPPINES",
+            "SCHOOL ADRESS":"STA. MESA, MANILA",
+            "GRADUATE YEAR":"2020-2021"
+        }
+    },
+
+    "SKILLS AND GOALS":{
+        "PERSONAL SKILLS":{
+            "SKILL_1":"BEGINNER AT PYTHON PROGRAMMING",
+            "SKILL_2":"TROUBLE_SHOOTING PC"},
+        "GOALS":"TO DEVELOP A GAME LIKE DWARF FORTRESS"
+    }
+               
+}
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
