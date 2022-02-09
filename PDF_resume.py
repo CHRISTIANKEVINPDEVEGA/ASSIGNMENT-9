@@ -52,12 +52,18 @@ pdf.set_text_color(220,50,50)
 pdf.cell(txt= "Skills and Goals", ln=2)
 pdf.set_text_color(100,50,50)
 pdf.set_font('arial','', size=8)
-pdf.cell(txt= "Primary Education", ln=1)
-pdf.cell(txt="School: " + resume_raw["SKILLS AND GOALS"]["PERSONAL SKILLS"]["SKILL_1"], ln=1)
+pdf.cell(txt= "Skills", ln=1)
+pdf.multi_cell(30, 5,txt=resume_raw["SKILLS AND GOALS"]["PERSONAL SKILLS"],ln=1,border=1,align="C",fill=0)
+pdf.cell(txt= "Goals", ln=1)
+pdf.multi_cell(40,5,txt=resume_raw["SKILLS AND GOALS"]["GOALS"]["G1"]+resume_raw["SKILLS AND GOALS"]["GOALS"]["G2"], ln=1)
 
-
-
-
+pdf.set_font('Times','B', size=30)
+pdf.set_text_color(220,50,50)
+pdf.cell(txt= "Careeer Background", ln=2)
+pdf.set_text_color(100,50,50)
+pdf.set_font('arial','', size=8)
+pdf.multi_cell(100, 5,txt=resume_raw["CAREER BACKGROUND"]["JOB1"]+
+resume_raw["CAREER BACKGROUND"]["JOB1_INFO"],ln=1,border=1,align="C",fill=0)
 
 
 pdf.output("test2.pdf")

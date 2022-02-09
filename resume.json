@@ -35,19 +35,14 @@
     },
 
     "SKILLS AND GOALS":{
-        "PERSONAL SKILLS":{
-            "SKILL_1":"Python Programming",
-            "SKILL_2":"Troubleshooting Hardware of PC",
-            "SKILL_3":"CC++ Programming",
-            "SKILL_4":"Robotics"
-        },
+        "PERSONAL SKILLS":"Python Programming\nTroubleshooting Hardware of PC\nC++ Programming\nRobotics",
         "GOALS":{
-            "G1":"My goal is to learn more about computer programming,",
+            "G1":"My goal is to learn more about computer programming, ",
             "G2":"and I want to practice my programming skills and my problem-solving."
         }
     },
     "CAREER BACKGROUND":{
-        "JOB1":"Software Developer",
+        "JOB1":"Software Developer\n",
         "JOB1_INFO":"ZimBang G.A.B.I Solutions | Aug. 2016 to April 2020",
         "JOB2":"Software Engineer",
         "JOB2_INFO":"jolibee Labs | May 2020 to present"
