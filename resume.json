@@ -3,10 +3,7 @@
         "NAME": "Christian Kevin P. De Vega",
         "AGE":"19",
         "BIRTHDAY":"12/25/02",
-        "PERSONALITY":{
-            "P1":"I am a very hardworking person, and I am exceptional at adapting pressure.",
-            "P2":"I thrive in deadlines and I make sure that my work is perfect."
-        }
+        "PERSONALITY":"I am a very hardworking person, and I am exceptional at adapting pressure. I thrive in deadlines and I make sure that my work is perfect."
     },
     "CONTACT":{
         "ADDRESS":"CATANAUAN, QUEZON",
@@ -15,31 +12,15 @@
         "FACEBOOK":"Christian Kevin P. De Vega"
     },
     "EDUC BACKGROUND":{
-        "PRIMARY EDUCATION":{
-            "NAME OF SCHOOL":"CATANAUAN CENTRAL SCHOOL",
-            "SCHOOL INFO":"CATANAUAN, QUEZON | 2014-2015"
+        "PRIMARY EDUCATION":"CATANAUAN CENTRAL SCHOOL\nCATANAUAN, QUEZON | 2014-2015",
+        "SECONDARY EDUCATION":"POLYTHECNIC UNIVERSITY OF THE PHILIPPINES\nSTA. MESA, MANILA | 2020-2021",
+        "TERTIARY EDUCATION":"POLYTHECNIC UNIVERSITY OF THE PHILIPPINES\nSTA. MESA, MANILA | 2026-2027\nBACHELOR OF SCEIENCE IN COMPUTER ENGINEERING",        
+        "AWARDS AND ACCOMPLISHMENTS":"G10 CHAMPION IN JINGLE\nQUIZ BEE 1ST RUNNER UP\nGRADUTED SHS WITH HIGH HONOR\nPRESIDENT OF SSG"
         },
-        "SECONDARY EDUCATION":{
-            "NAME OF SCHOOL":"POLYTHECNIC UNIVERSITY OF THE PHILIPPINES",
-            "SCHOOL INFO":"STA. MESA, MANILA | 2018-2019"
-        },
-        "TERTIARY EDUCATION":{
-            "NAME OF SCHOOL":"POLYTHECNIC UNIVERSITY OF THE PHILIPPINES",
-            "SCHOOL INFO":"STA. MESA, MANILA | 2020-2021",
-            "COLLEGE DEGREE": "BACHELOR OF SCEIENCE IN COMPUTER ENGINEERING"            
-        },
-        "AWARDS AND ACCOMPLISHMENTS":{
-            "AWARD1":"G10 CHAMPION IN JINGLE\nQUIZ BEE 1ST RUNNER UP\nGRADUTED SHS WITH HIGH HONOR\nPRESIDENT OF SSG"
-        }
-
-    },
 
     "SKILLS AND GOALS":{
         "PERSONAL SKILLS":"Python Programming\nTroubleshooting Hardware of PC\nC++ Programming\nRobotics",
-        "GOALS":{
-            "G1":"My goal is to learn more about computer programming, ",
-            "G2":"and I want to practice my programming skills and my problem-solving."
-        }
+        "GOALS":"My goal is to learn more about computer programming, and I want to practice my programming skills and my problem-solving."
     },
     "CAREER BACKGROUND":{
         "JOB1":"Software Developer\nZimBang G.A.B.I Solutions | Aug. 2016 to April 2020",
