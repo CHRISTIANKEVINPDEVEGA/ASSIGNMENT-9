@@ -1,32 +1,57 @@
 {
-    "BASIC INFORMATION":{
+    "BASIC INFO":{
         "NAME": "Christian Kevin P. De Vega",
-        "AGE":19,
+        "AGE":"19",
         "BIRTHDAY":"12/25/02",
-        "ADRESS":"CATANAUAN, QUEZON",
-        "EMAIL":"christiandevega12@GMAIL.com",
-        "PHONE NUMBER":"09454473766"
+        "PERSONALITY":{
+            "P1":"I am a very hardworking person, and I am exceptional at adapting pressure.",
+            "P2":"I thrive in deadlines and I make sure that my work is perfect."
+        }
     },
-    "EDUCATIONAL BACKGROUND":{
+    "CONTACT":{
+        "ADDRESS":"CATANAUAN, QUEZON",
+        "EMAIL":"christiandevega12@GMAIL.com",
+        "PHONE NUMBER":"09454473766",
+        "FACEBOOK":"Christian Kevin P. De Vega"
+    },
+    "EDUC BACKGROUND":{
         "PRIMARY EDUCATION":{
             "NAME OF SCHOOL":"CATANAUAN CENTRAL SCHOOL",
-            "SCHOOL ADRESS":"CATANAUAN",
-            "GRADUATE YEAR":"2014-2015"
+            "SCHOOL INFO":"CATANAUAN, QUEZON | 2014-2015"
         },
         "SECONDARY EDUCATION":{
             "NAME OF SCHOOL":"POLYTHECNIC UNIVERSITY OF THE PHILIPPINES",
-            "SCHOOL ADRESS":"STA. MESA, MANILA",
-            "GRADUATE YEAR":"2020-2021"
+            "SCHOOL INFO":"STA. MESA, MANILA | 2018-2019"
+        },
+        "TERTIARY EDUCATION":{
+            "NAME OF SCHOOL":"POLYTHECNIC UNIVERSITY OF THE PHILIPPINES",
+            "SCHOOL INFO":"STA. MESA, MANILA | 2020-2021",
+            "COLLEGE DEGREE": "BACHELOR OF SCEIENCE IN COMPUTER ENGINEERING"            
+        },
+        "AWARDS AND ACCOMPLISHMENTS":{
+            "AWARD1":"G10 CHAMPION IN JINGLE\nQUIZ BEE 1ST RUNNER UP\nGRADUTED SHS WITH HIGH HONOR\nPRESIDENT OF SSG"
         }
+
     },
 
     "SKILLS AND GOALS":{
         "PERSONAL SKILLS":{
-            "SKILL_1":"BEGINNER AT PYTHON PROGRAMMING",
-            "SKILL_2":"TROUBLE_SHOOTING PC"},
-        "GOALS":"TO DEVELOP A GAME LIKE DWARF FORTRESS"
-    }
-               
+            "SKILL_1":"Python Programming",
+            "SKILL_2":"Troubleshooting Hardware of PC",
+            "SKILL_3":"CC++ Programming",
+            "SKILL_4":"Robotics"
+        },
+        "GOALS":{
+            "G1":"My goal is to learn more about computer programming,",
+            "G2":"and I want to practice my programming skills and my problem-solving."
+        }
+    },
+    "CAREER BACKGROUND":{
+        "JOB1":"Software Developer",
+        "JOB1_INFO":"ZimBang G.A.B.I Solutions | Aug. 2016 to April 2020",
+        "JOB2":"Software Engineer",
+        "JOB2_INFO":"jolibee Labs | May 2020 to present"
+    }           
 }
         
     
