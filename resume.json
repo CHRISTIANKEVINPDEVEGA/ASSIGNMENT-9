@@ -42,10 +42,8 @@
         }
     },
     "CAREER BACKGROUND":{
-        "JOB1":"Software Developer\n",
-        "JOB1_INFO":"ZimBang G.A.B.I Solutions | Aug. 2016 to April 2020",
-        "JOB2":"Software Engineer",
-        "JOB2_INFO":"jolibee Labs | May 2020 to present"
+        "JOB1":"Software Developer\nZimBang G.A.B.I Solutions | Aug. 2016 to April 2020",
+        "JOB2":"Software Engineer\njolibee Labs | May 2020 to present"
     }           
 }
         

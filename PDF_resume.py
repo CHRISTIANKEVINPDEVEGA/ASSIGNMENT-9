@@ -62,8 +62,7 @@ pdf.set_text_color(220,50,50)
 pdf.cell(txt= "Careeer Background", ln=2)
 pdf.set_text_color(100,50,50)
 pdf.set_font('arial','', size=8)
-pdf.multi_cell(100, 5,txt=resume_raw["CAREER BACKGROUND"]["JOB1"]+
-resume_raw["CAREER BACKGROUND"]["JOB1_INFO"],ln=1,border=1,align="C",fill=0)
-
+pdf.multi_cell(100, 5,txt=resume_raw["CAREER BACKGROUND"]["JOB1"],ln=1,border=1,align="C",fill=0)
+pdf.multi_cell(100, 5,txt=resume_raw["CAREER BACKGROUND"]["JOB2"],ln=1,border=1,align="C",fill=0)
 
 pdf.output("test2.pdf")
