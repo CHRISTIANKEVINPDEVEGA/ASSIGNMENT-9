@@ -1,14 +1,11 @@
-from email.mime import image
-from multiprocessing import managers
-from re import T
-from tkinter import N
 from fpdf import FPDF
 import json
 
-
+#json reader
 data_json= open ('resume.json')
 resume_raw=json.loads(data_json.read())
 
+#easy access for json dict
 NAME= resume_raw["BASIC INFO"]["NAME"]
 AGE=resume_raw["BASIC INFO"]["AGE"]
 BIRTHDAY=resume_raw["BASIC INFO"]["BIRTHDAY"]
@@ -27,7 +24,7 @@ JOB1=resume_raw["CAREER BACKGROUND"]["JOB1"]
 JOB2=resume_raw["CAREER BACKGROUND"]["JOB2"]
 
 
-
+#pdf config
 pdf = FPDF('P','mm','A4')
 pdf.set_top_margin(25)
 pdf.set_left_margin(15)
@@ -85,12 +82,12 @@ pdf.multi_cell(180, 6,txt=JOB2,ln=1,border="T",align="L",fill=0)
 #CONTACT
 pdf.set_font('Times','B', size=15)
 pdf.cell(180, 6,txt= "CONTACT", ln=1,border="B",align="L",fill=0)
-pdf.set_font('arial','', size=8)
+pdf.set_font('arial','B', size=8)
 pdf.cell(180,5,txt="Address: " + ADDRESS, ln=1,border=0,align="L",fill=0)
 pdf.cell(180,6,txt="Email: " + EMAIL, ln=1,border=0,align="L",fill=0)
 pdf.cell(180,5,txt="Phone number: " + PHONE_NUM, ln=1,border=0,align="L",fill=0)
 pdf.cell(180,6,txt="Facebook: " + FB, ln=0,border=0,align="L",fill=0)
 
 
-
+#output function
 pdf.output("test2.pdf")
