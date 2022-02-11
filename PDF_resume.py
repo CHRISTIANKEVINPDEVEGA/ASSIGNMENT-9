@@ -63,12 +63,12 @@ pdf.cell(90,6,txt= "Tertiary Education", ln=2,border="B",align="L",fill=0)
 pdf.multi_cell(90,6,txt= TER_EDUC, ln=1,border=0,align="L",fill=0)
 
 #Awards and Accomplishments
-pdf.cell(180,6,txt= "Awards and Accomplishments", ln=2,border="B",align="L",fill=0)
+pdf.cell(180,6,txt= "AWARDS AND ACCOMPLISHMENTS", ln=2,border="B",align="L",fill=0)
 pdf.multi_cell(180,6,txt= AWARDS_ACCOMP, ln=1,border=0,align="L",fill=0)
 
 #Skills and Goals
 pdf.set_font('Times','B', size=15)
-pdf.cell(180,6,txt= "Skills and Goals", ln=2,border="B",align="L",fill=0)
+pdf.cell(180,6,txt= "SKILLS AND GOALS", ln=2,border="B",align="L",fill=0)
 pdf.set_font('arial','B', size=8)
 pdf.cell(180,5,txt= "Skills", ln=2,border="B",align="L",fill=0)
 pdf.multi_cell(180, 6,txt= PERSONAL_SKILLS ,ln=2,border=0,align="L",fill=0)
@@ -77,7 +77,7 @@ pdf.multi_cell(180,6,txt= GOALS,ln=1,border=0,align="L",fill=0)
 
 #Career Background
 pdf.set_font('Times','B', size=15)
-pdf.cell(180, 6,txt= "Career Background", ln=1,border=0,align="L",fill=0)
+pdf.cell(180, 6,txt= "CAREER BACKGROUND", ln=1,border=0,align="L",fill=0)
 pdf.set_font('arial','B', size=8)
 pdf.multi_cell(180, 6,txt=JOB1,ln=1,border="T",align="L",fill=0)
 pdf.multi_cell(180, 6,txt=JOB2,ln=1,border="T",align="L",fill=0)
